@@ -1,0 +1,158 @@
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header{
+	background: #23626A;
+	text-align: center;
+	font-family: arial;
+	padding: 5px 0;
+}
+.header-title{
+	padding: 5px 0;
+	text-transform: uppercase;
+	font-family: arial;
+	font-weight: 700;
+}	
+.header-parrafo{
+	padding: 10px 0;
+	font-weight: 900;
+	color: aliceblue;
+}
+.answer{
+	padding: 10px 0;
+	text-align: center;
+		
+}
+.answer p{
+	font-size: 25px;
+	font-weight: 700;
+	text-transform: capitalize;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+}
+.figure{
+	width: 90%;
+	margin: auto;
+	padding: 10px ;
+	overflow: hidden; 
+	max-width: 1000px
+}
+.box{
+	height: 70%;
+	width: 30%;
+	border: 8px solid #12B3B5;
+	box-shadow:  8px 10px 10px
+	#89e3ff;
+	margin: 10px;
+	border-radius: 15px;
+	float: left;
+	
+}
+.box-header{
+	text-align: center;
+	padding: 4px 0;
+	background: #12B3B5;
+	font-family: "sans-serif";
+	font-weight: 1000;
+	font-size: 19px;
+}
+.box-main{
+	text-align: center;
+	padding: 10px;
+}
+.box-main__text{
+	font-size: 19px;
+	font-weight: 600;
+}
+.box-main__input{
+	height: 42px;
+	width: 190px;
+	font-size: 14px;
+	font-weight: bold;
+	display: inline-block;
+	padding: 8px;
+	margin: 10px;
+	color: black;
+	border: solid #23626A;
+	box-shadow: 4px 5px 5px
+	#001d6d;
+	border-radius: 12px;
+}
+.box-main__button{
+	background: #23626A;
+	font-size: 10px;
+	width: 90px;
+	font-family: arial;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+	margin: 10px;
+	padding: 8px;
+	border-style: none;
+	border-radius: 8px;
+}
+.box-main___button{
+		background-color: rgb(35, 34, 90);
+		display: inline-block;
+		padding: 10px 20px;
+		text-decoration: none;
+		font-weight: 1000;
+		font-size: 21px;
+		color: #7c7dac;
+		margin-bottom: 20px;
+		height: 45px;
+		width: 195px;
+		border-radius: 8px;
+		letter-spacing: 2.5px;
+}
+.box-main___button:hover{
+	background-color: #3a3aac;
+	cursor: pointer;
+}
+.box-main___button:active{
+	background-color: #1d275f;
+}
+
+.box-main__button:hover{
+	background-color: #1919A0;
+	cursor: pointer;
+}
+.box-main__button:active{
+	background-color: #83C8F4;
+}
+
+@media screen and (max-width:940px){
+	.figure{
+		width: 100%;
+	}
+}
+@media screen and (max-width:820px){
+	.box{
+		margin: 5px;
+	}
+}
+	@media screen and (max-width:570px){
+	.box{
+	width: 90%;
+	height: auto;
+	margin: 25px;
+	
+	}
+}	
+@media screen and (max-width:380px){
+	.box{
+	width: 90%;
+	height: auto;
+	margin: 12px;
+	
+	}
+	.answer p{
+		font-size: 16px;
+	}
+	.header-title{
+		font-size: 25px;
+	}
+}	
